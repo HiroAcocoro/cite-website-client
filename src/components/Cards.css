@@ -5,6 +5,7 @@
 
 h1 {
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .cards__container {
@@ -91,6 +92,7 @@ h1 {
 
 .cards__item__info {
     padding: 20px 30px 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .cards__item__text {

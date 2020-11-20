@@ -1,0 +1,157 @@
+.hsp01-hero {
+    background: linear-gradient(180deg, rgb(144 7 16) 0%, rgb(120 7 7) 100%);
+    width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.hsp01-hero-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__img__wrapper {
+    position: relative;
+    width: 100%;
+    margin-top: -40px;
+}
+
+.hsp01-img-app {
+    width: 100%;
+    max-width: 370px;
+    height: 610;
+    max-height: 100%;
+    object-fit: cover;
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        filter: drop-shadow(0.35rem 0.35rem 0.2rem rgba(0, 0, 0, 0.5));
+        transform: translatey(0px);
+    }
+    50% {
+        filter: drop-shadow(0.45rem 0.85rem 0.8rem rgba(0, 0, 0, 0.5));
+        transform: translatey(-20px);
+    }
+    100% {
+        filter: drop-shadow(0.35rem 0.35rem 0.2rem rgba(0, 0, 0, 0.5));
+        transform: translatey(0px);
+    }
+}
+
+.hsp01__info__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin-left: 100px;
+}
+
+.hsp01__info__container>h1 {
+    color: #e9e3e3;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 92px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.hsp01__info__container>h5 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 200;
+    text-align: left;
+}
+
+.hsp01__store__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 200px;
+}
+
+.hsp01__store {
+    height: 100%;
+    max-height: 100%;
+    width: 200px;
+    max-width: 100%;
+    margin-right: 50px;
+    filter: drop-shadow(0.20rem 0.35rem 0.3rem rgba(0, 0, 0, 0.5));
+}
+
+.hsp01__bottom__divider {
+    color: #fff;
+}
+
+.wave-1hkxOo {
+    display: block
+}
+
+.wavePath-haxJK1 {
+    -webkit-animation: waveDividerAnimation-2m2aau 20s linear infinite alternate;
+    animation: waveDividerAnimation-2m2aau 20s linear infinite alternate;
+}
+
+@-webkit-keyframes waveDividerAnimation-2m2aau {
+    0% {
+        d: path("M826.337463,25.5396311 C670.970254,58.655965 603.696181,68.7870267 447.802481,35.1443383 C293.342778,1.81111414 137.33377,1.81111414 0,1.81111414 L0,150 L1920,150 L1920,1.81111414 C1739.53523,-16.6853983 1679.86404,73.1607868 1389.7826,37.4859505 C1099.70117,1.81111414 981.704672,-7.57670281 826.337463,25.5396311 Z")
+    }
+    50% {
+        d: path("M655.558582,28.4898877 C500.191373,61.6062216 422.833785,83.5422763 266.940085,49.8995879 C112.480383,16.5663637 84.0992497,8.02840272 0,44.7243294 L0,150.727527 L1920,150.727527 L1920,49.8995879 C1580.91676,-34.8808285 1438.10804,73.6768193 1148.0266,38.0019829 C857.945166,2.32714659 810.925791,-4.62644617 655.558582,28.4898877 Z")
+    }
+    to {
+        d: path("M842.322034,38.0019829 C686.954825,71.1183168 623.386282,53.08497 467.492582,19.4422816 C313.032879,-13.8909426 84.0992497,8.02840272 0,44.7243294 L0,150.727527 L1920,150.727527 L1920,76.8685643 C1512.23604,-35.3595639 1568.70222,67.4289432 1278.62078,31.7541069 C988.539347,-3.92072949 997.689243,4.88564905 842.322034,38.0019829 Z")
+    }
+}
+
+@keyframes waveDividerAnimation-2m2aau {
+    0% {
+        d: path("M826.337463,25.5396311 C670.970254,58.655965 603.696181,68.7870267 447.802481,35.1443383 C293.342778,1.81111414 137.33377,1.81111414 0,1.81111414 L0,150 L1920,150 L1920,1.81111414 C1739.53523,-16.6853983 1679.86404,73.1607868 1389.7826,37.4859505 C1099.70117,1.81111414 981.704672,-7.57670281 826.337463,25.5396311 Z")
+    }
+    50% {
+        d: path("M655.558582,28.4898877 C500.191373,61.6062216 422.833785,83.5422763 266.940085,49.8995879 C112.480383,16.5663637 84.0992497,8.02840272 0,44.7243294 L0,150.727527 L1920,150.727527 L1920,49.8995879 C1580.91676,-34.8808285 1438.10804,73.6768193 1148.0266,38.0019829 C857.945166,2.32714659 810.925791,-4.62644617 655.558582,28.4898877 Z")
+    }
+    to {
+        d: path("M842.322034,38.0019829 C686.954825,71.1183168 623.386282,53.08497 467.492582,19.4422816 C313.032879,-13.8909426 84.0992497,8.02840272 0,44.7243294 L0,150.727527 L1920,150.727527 L1920,76.8685643 C1512.23604,-35.3595639 1568.70222,67.4289432 1278.62078,31.7541069 C988.539347,-3.92072949 997.689243,4.88564905 842.322034,38.0019829 Z")
+    }
+}
+
+@media screen and (max-width: 1980px) {
+    .hsp01-info-container>h1 {
+        font-size: 60px;
+    }
+    .hsp01-info-container>p {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .hsp01-info-btns {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .hsp01-info-container>h1 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hsp01-info-container>h1 {
+        font-size: 50px;
+        margin-top: 0;
+    }
+    .hsp01-info-container>p {
+        font-size: 30px;
+    }
+    .hsp01-btn-mobile {
+        display: block;
+        text-decoration: none;
+    }
+    .hsp01-btn {
+        width: 100%;
+    }
+}

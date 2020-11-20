@@ -1,5 +1,6 @@
 :root {
     --primary: #fff;
+    --dark: #242222;
 }
 
 .btn {
@@ -8,6 +9,9 @@
     outline: none;
     border: none;
     cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    white-space: nowrap;
 }
 
 .btn--primary {
@@ -24,6 +28,20 @@
     transition: all 0.3s ease-out;
 }
 
+.btn--outline--dark {
+    background-color: transparent;
+    color: #242424;
+    padding: 8px 20px;
+    border: 1px solid var(--dark);
+    transition: all 0.3s ease-out;
+}
+
+.btn--outline--dark:hover {
+    background: #242424;
+    color: #fff;
+    transition: all 0.3s ease-out;
+}
+
 .btn--medium {
     padding: 8px 20px;
     font-size: 20px;
@@ -34,7 +52,7 @@
     font-size: 20px;
 }
 
-.btn--medium:hover,
+.btn--outline:hover,
 .btn--large:hover {
     background: #fff;
     color: #242424;

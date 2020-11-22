@@ -14,10 +14,10 @@ function HeroSection() {
 
     return (
         <div className='hero-container'>
-            <video src="/videos/video02.webm" autoPlay loop muted />
+            <video src="/videos/abzu.webm" autoPlay loop muted />
             <div data-aos="fade-right" className="info-container">
-                <h1>Craftopia</h1>
-                <p>Craftopia is the brand new multiplayer survival action game developed by CITE students.</p>
+                <h1>Abzû</h1>
+                <p>Abzû is an adventure video game developed by CITE students</p>
                 <div className="info-btns">
                     <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>Go to Project Page</Button>
                     <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>WATCH ? <i className='far fa-play-circle' /></Button>

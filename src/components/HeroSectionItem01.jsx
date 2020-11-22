@@ -10,7 +10,7 @@ function HeroSectionItem01(props) {
 
     return (
         <>
-            <li>
+            <li className="no-bullets">
                 <div className="hsp01-hero-container">
                     <figure data-aos="fade-down" className="hrsp01__item__pic-wrap">
                         <img src={props.src} alt="HeroSectionImg01" className="hsp01-img-app" />

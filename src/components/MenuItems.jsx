@@ -1,7 +1,7 @@
 export const MenuItems = [
     {
         title: 'Web Applications',
-        path: '/',
+        path: '/web-applications-home',
         cName: 'dropdown-link'
     },
     {
@@ -10,7 +10,7 @@ export const MenuItems = [
         cName: 'dropdown-link'
     },
     {
-        title: 'Video Games',
+        title: 'Game Applications',
         path: '/',
         cName: 'dropdown-link'
     },

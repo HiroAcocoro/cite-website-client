@@ -97,7 +97,7 @@ export default function Navbar() {
                             {dropdown && <Dropdown />}
                         </li>
                         <li className='nav-item-mobile'>
-                            <Link to='/' className="nav-drop-items" onClick={closeMobileMenu}>
+                            <Link to='/web-applications-home' className="nav-drop-items" onClick={closeMobileMenu}>
                                 Web Applications
                             </Link>
                         </li>
@@ -108,11 +108,11 @@ export default function Navbar() {
                         </li>
                         <li className='nav-item-mobile'>
                             <Link to='/' className="nav-drop-items" onClick={closeMobileMenu}>
-                                Videogames
+                                Game Applications
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle={navButton ? 'btn--outline--dark' : 'btn--outline' }>CONTACT US</Button>}
+                    {button && <Button buttonStyle={navButton ? 'btn--outline--dark' : 'btn--outline' } buttonLink="/contact">CONTACT US</Button>}
                     
                 </div>
             </nav>

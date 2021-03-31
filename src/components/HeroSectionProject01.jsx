@@ -1,10 +1,9 @@
 import { React, useEffect } from 'react'
-import { Button } from './Button'
 import './HeroSectionProject01.css'
 import '../App.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-import HeroSectionItem01 from './HeroSectionItem01'
+import HeroSectionItem01 from './HeroSectionProjectItem01'
 
 
 function HeroSectionProject01() {

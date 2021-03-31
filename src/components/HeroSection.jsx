@@ -19,8 +19,8 @@ function HeroSection() {
                 <h1>Abzû</h1>
                 <p>Abzû is an adventure video game developed by CITE students</p>
                 <div className="info-btns">
-                    <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>Go to Project Page</Button>
-                    <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>WATCH ? <i className='far fa-play-circle' /></Button>
+                    <Button buttonLink="/" className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>Go to Project Page</Button>
+                    <Button buttonLink="/" className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>WATCH ? <i className='far fa-play-circle' /></Button>
                 </div>
             </div>
         </div>

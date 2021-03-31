@@ -1,0 +1,94 @@
+.slidestack {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.slidestack_container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title_container>h1 {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: calc(2.5rem + 5.5*(100vw - 20rem)/195);
+}
+
+.title_subtitle>p {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 4vh;
+    padding-top: .5em;
+    padding-left: .125em;
+    line-height: 2;
+}
+
+.slidestack_block {
+    height: 100vh;
+}
+
+.slidestack_img_container {
+    width: 60%;
+    height: 100vh;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.slidestack_img_wrapper>img {
+    width: 100%;
+    height: 100vh;
+    max-height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.slidestack_img1 {
+    position: absolute;
+    left: 40;
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s linear;
+    z-index: 3;
+}
+
+.slidestack_img2 {
+    position: absolute;
+    left: 40;
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s linear;
+    z-index: 2;
+}
+
+.slidestack_img3 {
+    position: absolute;
+    left: 40;
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s linear;
+    z-index: 1;
+}
+
+.slidestack_img1.active {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 1s, opacity 1s linear;
+}
+
+.slidestack_img2.active {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 1s, opacity 1s linear;
+}
+
+.slidestack_img3.active {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 1s, opacity 1s linear;
+}

@@ -1,0 +1,147 @@
+.section-container {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.faculty-main-container {
+    height: 100vh;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 4.2rem;
+    max-width: 1366px;
+}
+
+.faculty-grid-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 4.2rem;
+}
+
+.faculty-info-container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.faculty-info-container>h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 2.3rem;
+    background-color: #FFFF00;
+    background-image: linear-gradient(to right, #ff0 85%, #fff 100%);
+    background-repeat: no-repeat;
+    line-height: 150%;
+    padding: 0px 10px 0px 10px;
+}
+
+.faculty-info-container>p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3rem;
+    padding-top: 1.2rem;
+    padding-bottom: 3rem;
+}
+
+.faculty-gallery-container {
+    width: 70%;
+    padding-right: 1.2rem;
+    margin-right: 3rem;
+}
+
+.faculty-gallery-wrapper {
+    width: 100%;
+}
+
+.faculty-gallery-flex-container {
+    width: 100%;
+    position: relative;
+}
+
+.faculty-gallery-container-column-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.faculty-gallery-container-column-1 {
+    padding-left: 7.2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.faculty-gallery-container-column-2 {
+    padding-right: 7.2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.faculty-gallery-cell-container {
+    width: 24rem;
+    position: relative;
+}
+
+.faculty-gallery-cell {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    margin-left: 9rem;
+}
+
+.faculty-gallery-img {
+    width: 8rem;
+    border: none;
+    max-width: 100%;
+}
+
+.faculty-gallery-info {
+    position: relative;
+    top: -1.5rem;
+    left: 3rem;
+    padding: 0.7rem;
+    background: #fff;
+}
+
+.faculty-gallery-info>h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    padding-bottom: 0.7rem;
+    color: #242424;
+}
+
+.faculty-gallery-info>p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #242424;
+    font-size: 0.9rem;
+    line-height: 0.8rem
+}
+
+.faculty-gallery-grid-container {
+    z-index: 2;
+}
+
+.faculty-gallery-border-background {
+    z-index: 1;
+    width: 100%;
+    left: 0rem;
+    top: calc(100vh + 50vh);
+    right: 0rem;
+    border: 0.1rem solid #DCDEDD;
+    border-style: dashed;
+    border-color: #242424;
+    margin-left: 9rem;
+    margin-right: 12rem;
+    margin-bottom: 15rem;
+}
+
+@media (min-width: 795px) {
+    .faculty-gallery-border-background {
+        bottom: 0rem;
+    }
+}
+
+@media (min-width: 600px) {
+    .faculty-gallery-border-background {
+        bottom: 1.8rem;
+    }
+}
